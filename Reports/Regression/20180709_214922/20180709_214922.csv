@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression,Chrome 67.0.3396.99,,2018-07-09 21:49:24,2018-07-09 21:49:32,7.312s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 67.0.3396.99,,2018-07-09 21:49:25,2018-07-09 21:49:30,5.760s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-09 21:49:25,2018-07-09 21:49:25,0.009s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-09 21:49:25,2018-07-09 21:49:27,2.094s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 21:49:27,2018-07-09 21:49:30,3.018s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Execute Automation login page_Objects/h1_Execute Automation Selenium), 3))",Chrome 67.0.3396.99,,2018-07-09 21:49:30,2018-07-09 21:49:30,0.486s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-09 21:49:30,2018-07-09 21:49:30,0.003s,PASSED
+,,,,,,
+Test Cases/AccountLandingPage,Chrome 67.0.3396.99,,2018-07-09 21:49:30,2018-07-09 21:49:32,1.126s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-09 21:49:30,2018-07-09 21:49:30,0.002s,PASSED
+selectOptionByIndex,Chrome 67.0.3396.99,,2018-07-09 21:49:30,2018-07-09 21:49:31,0.127s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 21:49:31,2018-07-09 21:49:31,0.109s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 21:49:31,2018-07-09 21:49:31,0.110s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 21:49:31,2018-07-09 21:49:31,0.103s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-09 21:49:31,2018-07-09 21:49:31,0.536s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 21:49:31,2018-07-09 21:49:32,0.058s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-09 21:49:32,2018-07-09 21:49:32,0.002s,PASSED

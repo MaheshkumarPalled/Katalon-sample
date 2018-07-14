@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="Regression" tests="2" failures="0" errors="0" time="7" timestamp="2018-07-09 21:49:24" hostname="arunaarali - 192.168.0.11" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/arunaarali/Katalon Studio/Automation1/Reports/Regression/20180709_214922"/>
+         <property name="logFiles" value="/Users/arunaarali/Katalon Studio/Automation1/Reports/Regression/20180709_214922/execution0.log"/>
+         <property name="attachments" value="/Users/arunaarali/Katalon Studio/Automation1/Reports/Regression/20180709_214922/1531190971426.png"/>
+         <property name="hostName" value="arunaarali - 192.168.0.11"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.0.11"/>
+         <property name="sessionId" value="762b6d721f1bb522df065a48a1090e52"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-07-09 21:49:25 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-07-09 21:49:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-07-09 21:49:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-09 21:49:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-07-09 21:49:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-09 21:49:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-09 21:49:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-09 21:49:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Execute Automation login page_Objects/h1_Execute Automation Selenium), 3)): Object: 'Object Repository/Execute Automation login page_Objects/input_Login' is clicked on
+
+2018-07-09 21:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Execute Automation login page_Objects/h1_Execute Automation Selenium' is present
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - setText: Text 'maheshkumar' is set on object 'Object Repository/Execute Automation login page_Objects/input_UserName'
+
+2018-07-09 21:49:30 - [MESSAGE][PASSED] - Text 'maheshkumar' is set on object 'Object Repository/Execute Automation login page_Objects/input_UserName'
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - setText: Text 'palled' is set on object 'Object Repository/Execute Automation login page_Objects/input_Password'
+
+2018-07-09 21:49:30 - [MESSAGE][PASSED] - Text 'palled' is set on object 'Object Repository/Execute Automation login page_Objects/input_Password'
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Execute Automation login page_Objects/input_Login' is clicked on
+
+2018-07-09 21:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Execute Automation login page_Objects/input_Login' is clicked on
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccountLandingPage" classname="Test Cases/AccountLandingPage" status="PASSED">
+         <system-out><![CDATA[2018-07-09 21:49:30 - [TEST_CASE][PASSED] - Test Cases/AccountLandingPage: Test Cases/AccountLandingPage
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-07-09 21:49:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/EA AccountLandingPage_objects/select_SelectMr.Ms.'
+
+2018-07-09 21:49:31 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/EA AccountLandingPage_objects/select_SelectMr.Ms.'
+
+2018-07-09 21:49:31 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/EA AccountLandingPage_objects/input_Initial'
+
+2018-07-09 21:49:31 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/EA AccountLandingPage_objects/input_Initial'
+
+2018-07-09 21:49:31 - [TEST_STEP][PASSED] - setText: Text 'Maheshkumar' is set on object 'Object Repository/EA AccountLandingPage_objects/input_FirstName'
+
+2018-07-09 21:49:31 - [MESSAGE][PASSED] - Text 'Maheshkumar' is set on object 'Object Repository/EA AccountLandingPage_objects/input_FirstName'
+
+2018-07-09 21:49:31 - [TEST_STEP][PASSED] - setText: Text 'Palled' is set on object 'Object Repository/EA AccountLandingPage_objects/input_MiddleName'
+
+2018-07-09 21:49:31 - [MESSAGE][PASSED] - Text 'Palled' is set on object 'Object Repository/EA AccountLandingPage_objects/input_MiddleName'
+
+2018-07-09 21:49:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-09 21:49:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/arunaarali/Katalon Studio/Automation1/Reports/Regression/20180709_214922/1531190971426.png]]
+
+2018-07-09 21:49:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EA AccountLandingPage_objects/input_Save' is clicked on
+
+2018-07-09 21:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EA AccountLandingPage_objects/input_Save' is clicked on
+
+2018-07-09 21:49:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-07-09 21:49:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-09 21:49:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 21:49:24 - [TEST_SUITE][PASSED] - Regression: Test Cases/AccountLandingPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
